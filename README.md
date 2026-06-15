@@ -34,7 +34,7 @@ You need an AI tool that supports document uploads and can read PDF and Markdown
 
 1. Download or clone this repository.
 2. Start a new conversation in your AI tool.
-3. Upload the document you want reviewed.
+3. Upload the document you want reviewed (PDF).
 4. Upload [`prompt.md`](prompt.md).
 5. Upload [`IAEA_Style_Manual.pdf`](IAEA_Style_Manual.pdf), or the current style reference approved for your work.
 6. Send the following instruction:
