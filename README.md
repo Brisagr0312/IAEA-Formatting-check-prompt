@@ -1,4 +1,4 @@
-# IAEA Publication Review Assistant
+# The IAEA Publication Review Assistant
 
 > A reusable AI prompt for identifying actionable editorial and formatting issues in English-language documents using the IAEA Style Manual.
 
