@@ -16,6 +16,7 @@ This repository provides a structured prompt that turns a file-capable AI assist
   <br>
   <strong>Scan to open this repository</strong>
 </p>
+## If you have any questions, please feel free to reach out to Brisa or Bill. 
 
 ## Why use it?
 
@@ -54,6 +55,13 @@ This workflow is intended for users whose organization authorizes Microsoft 365 
 1. Open [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) and sign in with your approved organizational account.
 2. Open the model menu in the upper-right corner.
 3. Select **GPT 5.5 Think Deeper**, if it is available for your account. Model names and availability may vary by licence, tenant, and administrator settings.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9447e413-745e-4941-8120-b9dd78b9a8f3" alt="Selecting GPT 5.5 Think Deeper in Microsoft 365 Copilot" width="900">
+  <br>
+  <em>Select GPT 5.5 Think Deeper from the Copilot model menu when it is available.</em>
+</p>
+
 4. Attach the TECDOC or other document that you want reviewed.
 5. Paste the request below into Copilot and send it:
 
@@ -76,11 +84,7 @@ provide a general quality rating.
 
 6. Verify the output against the authoritative style reference before applying any correction.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9447e413-745e-4941-8120-b9dd78b9a8f3" alt="Selecting GPT 5.5 Think Deeper in Microsoft 365 Copilot" width="900">
-  <br>
-  <em>Select GPT 5.5 Think Deeper from the Copilot model menu when it is available.</em>
-</p>
+
 
 If Copilot cannot open the repository link, download and attach [`prompt.md`](prompt.md) and [`IAEA_Style_Manual.pdf`](IAEA_Style_Manual.pdf) directly. If the complete document exceeds the available context, divide it at chapter boundaries and ask Copilot to continue using the same instructions for each part.
 
