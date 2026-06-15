@@ -48,7 +48,7 @@ the required output format.
 
 For a long document, review one chapter at a time. This usually produces more precise findings and makes the results easier to verify.
 
-## Use with Microsoft 365 Copilot
+## Use with Microsoft 365 Copilot which is IAEA friendly
 
 This workflow is intended for users whose organization authorizes Microsoft 365 Copilot but does not provide access to a specialized AI agent.
 
