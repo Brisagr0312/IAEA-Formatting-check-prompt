@@ -1,5 +1,5 @@
 # IAEA Publication Review Assistant
-
+# If you have any questions, please feel free to reach out to Brisa or Bill. 
 > A reusable AI prompt for identifying actionable editorial and formatting issues in English-language documents using the IAEA Style Manual.
 
 [![Prompt](https://img.shields.io/badge/type-AI%20prompt-2563eb)](prompt.md)
@@ -16,7 +16,7 @@ This repository provides a structured prompt that turns a file-capable AI assist
   <br>
   <strong>Scan to open this repository</strong>
 </p>
-## If you have any questions, please feel free to reach out to Brisa or Bill. 
+
 
 ## Why use it?
 
