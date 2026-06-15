@@ -1,5 +1,5 @@
 # IAEA Publication Review Assistant
-# If you have any questions, please feel free to reach out to Brisa or Bill. 
+ If you have any questions, please feel free to reach out to Brisa or Bill (NPTDS). 
 > A reusable AI prompt for identifying actionable editorial and formatting issues in English-language documents using the IAEA Style Manual.
 
 [![Prompt](https://img.shields.io/badge/type-AI%20prompt-2563eb)](prompt.md)
