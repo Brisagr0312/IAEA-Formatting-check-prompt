@@ -1,4 +1,4 @@
-# The IAEA Publication Review Assistant
+# IAEA Publication Review Assistant
 
 > A reusable AI prompt for identifying actionable editorial and formatting issues in English-language documents using the IAEA Style Manual.
 
@@ -34,7 +34,7 @@ You need an AI tool that supports document uploads and can read PDF and Markdown
 
 1. Download or clone this repository.
 2. Start a new conversation in your AI tool.
-3. Upload the document you want reviewed (PDF).
+3. Upload the document you want reviewed.
 4. Upload [`prompt.md`](prompt.md).
 5. Upload [`IAEA_Style_Manual.pdf`](IAEA_Style_Manual.pdf), or the current style reference approved for your work.
 6. Send the following instruction:
@@ -46,6 +46,43 @@ the required output format.
 ```
 
 For a long document, review one chapter at a time. This usually produces more precise findings and makes the results easier to verify.
+
+## Use with Microsoft 365 Copilot
+
+This workflow is intended for users whose organization authorizes Microsoft 365 Copilot but does not provide access to a specialized AI agent.
+
+1. Open [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) and sign in with your approved organizational account.
+2. Open the model menu in the upper-right corner.
+3. Select **GPT 5.5 Think Deeper**, if it is available for your account. Model names and availability may vary by licence, tenant, and administrator settings.
+4. Attach the TECDOC or other document that you want reviewed.
+5. Paste the request below into Copilot and send it:
+
+```text
+Open and follow this public GitHub repository:
+https://github.com/Brisagr0312/IAEA-Formatting-check-prompt
+
+Read README.md and prompt.md, then review the attached TECDOC using the
+IAEA editorial instructions in prompt.md.
+
+Review the complete document from the Introduction through the end. Return
+comprehensive, actionable feedback as plain text suitable for saving as a
+.txt file. Group findings by category, distinguish confirmed issues from
+items requiring verification, and give the location, issue, and suggested
+correction or action for every finding.
+
+Do not assess the scientific conclusions, rewrite technical content, or
+provide a general quality rating.
+```
+
+6. Verify the output against the authoritative style reference before applying any correction.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9447e413-745e-4941-8120-b9dd78b9a8f3" alt="Selecting GPT 5.5 Think Deeper in Microsoft 365 Copilot" width="900">
+  <br>
+  <em>Select GPT 5.5 Think Deeper from the Copilot model menu when it is available.</em>
+</p>
+
+If Copilot cannot open the repository link, download and attach [`prompt.md`](prompt.md) and [`IAEA_Style_Manual.pdf`](IAEA_Style_Manual.pdf) directly. If the complete document exceeds the available context, divide it at chapter boundaries and ask Copilot to continue using the same instructions for each part.
 
 ## How it works
 
